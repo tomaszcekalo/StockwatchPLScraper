@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace StockwatchPLScraper
 {
-    public class MainPageScraper
+    public class GpwGroup
     {
+        public GpwIndeksyScraper Indeksy { get; set; }
+        public GpwSektoryScraper Sektory { get; set; }
     }
 }

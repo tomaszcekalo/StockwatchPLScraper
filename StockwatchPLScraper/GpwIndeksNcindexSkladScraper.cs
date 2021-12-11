@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace StockwatchPLScraper
 {
-    public class MainPageScraper
+    public class GpwIndeksNcindexSkladScraper
     {
+        public object Scrape()
+        {
+            // #StockIndexFull
+            return null;
+        }
     }
 }
