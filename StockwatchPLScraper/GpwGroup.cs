@@ -10,5 +10,6 @@ namespace StockwatchPLScraper
     {
         public GpwIndeksyScraper Indeksy { get; set; }
         public GpwSektoryScraper Sektory { get; set; }
+        public GpwIndeksGroup Indeks { get; set; }
     }
 }

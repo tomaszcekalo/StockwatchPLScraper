@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace StockwatchPLScraper
 {
-    public class StockWatchScraper
+    public class IpoScraper
     {
-        public MainPageScraper MainPage { get; set; }
-        public GpwGroup Gpw { get; set; }
+        //https://www.stockwatch.pl/ipo/
     }
 }
